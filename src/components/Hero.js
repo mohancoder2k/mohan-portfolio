@@ -1,5 +1,4 @@
 import HeroImg from '../assets/hero1.png'
-import Pro from '../assets/profile.png'
 import { AiOutlineTwitter, AiOutlineFacebook, AiOutlineLinkedin } from "react-icons/ai";
 
 export default function Hero() {
