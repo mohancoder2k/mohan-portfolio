@@ -11,7 +11,7 @@ export default function Resume() {
                     <h1 className='text-4xl border-b-4 border-primary mb-5 w-[140px] font-bold'>Resume</h1>
                     <div>
                         <p className='pb-5'>You can view my Resume</p>
-                        <a className='btn' href='https://drive.google.com/file/d/1falpbf2nk80czEnQpc5wn1Te9fKG7qTv/view?usp=sharing'>Download</a>
+                        <a className='btn' href='https://drive.google.com/file/d/1jCnVuVBD3h9gMRcHKUrBIfoOq52Wp1Rt/view?usp=sharing'>Download</a>
                     </div>
                 </div>
             </div>

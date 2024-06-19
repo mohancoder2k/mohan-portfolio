@@ -7,7 +7,7 @@ export default function Hero() {
             <div className='md:w-1/2 flex flex-col'>
                 <h1 className='text-white text-6xl font-hero-font'>
                     Hi, <br /> I'm Mohan
-                    <p className='text-2xl '>I'm a Full-Stack Developer </p>
+                    <p className='text-2xl '>Full Stack Web/App Developer | Spring Boot & MERN Stack Developer </p>
                 </h1>
                 <div className='flex py-10'>
                     <a href="https://twitter.com" className='pr-5 hover:text-white'><AiOutlineTwitter size={40} /></a>
