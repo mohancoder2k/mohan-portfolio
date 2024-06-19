@@ -2,6 +2,7 @@
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
+import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -17,6 +18,7 @@ function App() {
       <Projects/>
       <Resume/>
       <Contact/>
+      <ContactUs/>
       <Footer/>
     </div>
   );
