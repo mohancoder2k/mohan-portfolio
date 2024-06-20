@@ -19,10 +19,10 @@ export default function Header() {
             {toggleMenu && (
                 <nav className="block md:hidden">
                     <ul onClick={() => setToggleMenu(!toggleMenu)} className="flex flex-col text-white mobile-nav">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/#about">About</a></li>
-                        <li><a href="/#projects">Projects</a></li>
-                        <li><a href="/#contact">Contact</a></li>
+                        <li><a href="/" className="py-2 px-4 block hover:bg-gray-700">Home</a></li>
+                        <li><a href="/#about" className="py-2 px-4 block hover:bg-gray-700">About</a></li>
+                        <li><a href="/#projects" className="py-2 px-4 block hover:bg-gray-700">Projects</a></li>
+                        <li><a href="/#contact" className="py-2 px-4 block hover:bg-gray-700">Contact</a></li>
                     </ul>
                 </nav>
             )}

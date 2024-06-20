@@ -7,11 +7,14 @@ header ul li {
 }
 
 .bg-primary {
-    background: rgb(85 81 227);  /*  rgb(85 81 227); #ec4899 */
+    background: linear-gradient(135deg, #3498db, #1abc9c);
+
+  /*  rgb(85 81 227); #ec4899 */
 }
 
 .bg-secondary {
-    background: #e879f9; /*  #2b2d77 */
+    background: linear-gradient(135deg, #1abc9c, #3498db);
+ /*  #2b2d77 */
 }
 
 .mobile-nav {
