@@ -10,6 +10,18 @@ const ContactUs = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Validation
+    if (!name || !email || !message) {
+      Swal.fire({
+        title: 'Error!',
+        text: 'All fields are required',
+        icon: 'error',
+        confirmButtonText: 'OK'
+      });
+      return;
+    }
+
     setLoader(true);
 
     const data = {
@@ -37,7 +49,7 @@ const ContactUs = () => {
         text: 'Your message has been submitted 👍',
         icon: 'success',
         confirmButtonText: 'OK'
-      }).then(()=>{
+      }).then(() => {
         window.location.reload();
       });
     } catch (error) {
@@ -77,7 +89,7 @@ const ContactUs = () => {
               />
             </div>
             <div className='mb-4'>
-              <label className='block text-white text-sm font-bold mb-2' htmlFor="name">Email</label>
+              <label className='block text-white text-sm font-bold mb-2' htmlFor="email">Email</label>
               <input
                 placeholder="Email"
                 value={email}
@@ -86,7 +98,7 @@ const ContactUs = () => {
               />
             </div>
             <div className='mb-4'>
-              <label className='block text-white text-sm font-bold mb-2' htmlFor="name">Message</label>
+              <label className='block text-white text-sm font-bold mb-2' htmlFor="message">Message</label>
               <textarea
                 placeholder="Message"
                 value={message}
